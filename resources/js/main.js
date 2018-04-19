@@ -13,8 +13,6 @@ $('.kletka').click(function() {
     }
   }
   $(this).addClass('clicked');
-})
+});
 
-$('.reload').click(function() {
-  location.reload();
-})
+$('.reload').click(() => location.reload());

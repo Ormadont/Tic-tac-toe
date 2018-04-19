@@ -29,6 +29,7 @@ body {
   border: 1px solid grey;
   border-radius: 15px;
   background-color:lightgray;
+  margin: 0.1rem;
 }
 
 .kletka p {

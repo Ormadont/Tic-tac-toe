@@ -1,0 +1,36 @@
+/* фон как в тетради в клетку */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  margin: 3rem;
+}
+
+.pole {
+  background-color: lightblue;
+  display: grid;
+  grid-template-rows: repeat(3,150px);
+  grid-template-columns: repeat(3,150px);
+  cursor: pointer;
+}
+
+.kletka {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.kletka p {
+  font-size: 7rem;
+}
+
+.krestik {
+  color: hsla(40, 70%, 30%, 0.8);
+}
+
+.nolik {
+  color: hsla(150, 70%, 30%, 0.8);
+}

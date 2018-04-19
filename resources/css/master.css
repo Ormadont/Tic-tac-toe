@@ -1,17 +1,24 @@
 /* фон как в тетради в клетку */
+body {
+  background-color: hsl(165, 30%, 89%);
+}
 
+/* universal */
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.column {
+  flex-direction: column;
+}
 
+/* game */
 .game {
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .pole {
-  background-color: lightblue;
   display: grid;
   grid-template-rows: repeat(3,150px);
   grid-template-columns: repeat(3,150px);
@@ -20,7 +27,8 @@
 
 .kletka {
   border: 1px solid grey;
-  border-radius: 5px;
+  border-radius: 15px;
+  background-color:lightgray;
 }
 
 .kletka p {
@@ -28,9 +36,18 @@
 }
 
 .krestik {
-  color: hsla(40, 70%, 30%, 0.8);
+  color: hsl(213, 20%, 46%);
 }
 
 .nolik {
-  color: hsla(150, 70%, 30%, 0.8);
+  color: hsl(295, 20%, 46%);
+}
+
+/* other */
+.btn {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  background-color: lightgray;
+  cursor: pointer;
 }

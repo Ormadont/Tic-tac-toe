@@ -9,7 +9,7 @@ $('.kletka').click(function() {
     else {
       nolik = true;
       $(this).addClass('nolik');
-      $(this).append('<p>0</p>');
+      $(this).append('<p>O</p>');
     }
   }
   $(this).addClass('clicked');
